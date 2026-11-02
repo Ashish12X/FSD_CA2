@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb+srv://Aryan_Tiwari:Aryan123@cluster0.k4ggxjo.mongodb.net/feedbackDB2';
+const MONGO_URI = 'mongodb://localhost:27017/feedbackDB';
 
 const connectDB = async () => {
   try {
