@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGO_URI = 'mongodb://127.0.0.1:27017/feedbackDB';
+const MONGO_URI = 'mongodb+srv://Aryan_Tiwari:Aryan123@cluster0.k4ggxjo.mongodb.net/feedbackDB2';
 
 const connectDB = async () => {
   try {
